@@ -19,7 +19,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"square.json#start-from-main"
+                 "value":"square.json#start-from-fossgis-update"
                 }],
          "type":"tilelayer",
          "visible":true,
