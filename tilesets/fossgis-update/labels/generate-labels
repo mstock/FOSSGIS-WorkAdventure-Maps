@@ -1,0 +1,12 @@
+#!/bin/bash
+
+label-generator --target-file fossgis-konferenz.png --color '#ec7b02' --text 'FOSSGIS-\nKonferenz'
+label-generator --target-file fossgis.png --color '#ee7f00' --text 'FOSSGIS e.V'
+label-generator --target-file openstreetmap.png --color '#94c57c' --text 'OpenStreetMap'
+label-generator --target-file umap.png --color '#323e56' --text 'uMap'
+label-generator --target-file webmapping.png --color 'health' --text 'Webmapping'
+label-generator --target-file osm.png --color 'gastronomy' --text 'OSM'
+label-generator --target-file qgis.png --color 'gastronomy' --text 'QGIS'
+label-generator --target-file infos.png --color '#777777' --font-size 12 --text 'Infos'
+label-generator --target-file topics.png --color '#777777' --font-size 12 --text 'Themengebiete'
+label-generator --target-file socialising.png --color '#777777' --font-size 12 --text 'Socialising'
