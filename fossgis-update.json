@@ -567,8 +567,18 @@
          "tilewidth":32
         }, 
         {
+         "columns":3,
          "firstgid":3348,
-         "source":"Corner.tsx"
+         "image":"tilesets\/rC3-OSM-Tileset\/corner.png",
+         "imageheight":221,
+         "imagewidth":96,
+         "margin":0,
+         "name":"corner",
+         "spacing":0,
+         "tilecount":18,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#898989"
         }],
  "tilewidth":32,
  "type":"map",
