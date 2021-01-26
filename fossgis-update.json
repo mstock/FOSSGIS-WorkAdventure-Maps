@@ -67,7 +67,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/umap.openstreetmap.fr\/"
+                 "value":"https:\/\/umap.openstreetmap.de\/"
                 }],
          "type":"tilelayer",
          "visible":true,
