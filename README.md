@@ -36,3 +36,5 @@ Please note that the tilesets are included as [Git submodules](https://git-scm.c
 * [FOSSGIS logo](https://commons.wikimedia.org/wiki/File:FOSSGIS_Logo.png): FOSSGIS e.V., [Creative Commons Attribution-Share Alike 3.0 Germany](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en)
 * [OpenStreetMap logo](https://wiki.openstreetmap.org/wiki/File:Public-images-osm_logo.svg): Ken Vermette, [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 * [uMap logo](https://wiki.openstreetmap.org/wiki/File:Umap_logo.svg): [Ybon](https://wiki.openstreetmap.org/wiki/User:Ybon), [Creative Commons Attribution-ShareAlike 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
+
+
