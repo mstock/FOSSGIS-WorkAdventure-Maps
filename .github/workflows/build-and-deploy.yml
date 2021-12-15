@@ -16,10 +16,7 @@ jobs:
         uses: thecodingmachine/map-optimizer-action@master
       - name: Build pages
         run: |
-          mkdir -v dist
-          cp -v *.json dist
-          cp -v .nojekyll dist
-          rsync -av --prune-empty-dirs --include "*/"  --include="*.png" --exclude="*" tilesets/ dist/tilesets
+          make dist
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
