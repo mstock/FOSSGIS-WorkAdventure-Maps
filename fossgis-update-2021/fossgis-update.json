@@ -426,7 +426,7 @@
         {
          "columns":33,
          "firstgid":1,
-         "image":"tilesets\/rC3-OSM-Tileset\/symbols.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/symbols.png",
          "imageheight":448,
          "imagewidth":1056,
          "margin":0,
@@ -439,7 +439,7 @@
         {
          "columns":12,
          "firstgid":463,
-         "image":"tilesets\/rC3-OSM-Tileset\/highway.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/highway.png",
          "imageheight":640,
          "imagewidth":384,
          "margin":0,
@@ -452,7 +452,7 @@
         {
          "columns":7,
          "firstgid":703,
-         "image":"tilesets\/rC3-OSM-Tileset\/building.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/building.png",
          "imageheight":128,
          "imagewidth":224,
          "margin":0,
@@ -465,7 +465,7 @@
         {
          "columns":4,
          "firstgid":731,
-         "image":"tilesets\/rC3-OSM-Tileset\/colours.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/colours.png",
          "imageheight":64,
          "imagewidth":128,
          "margin":0,
@@ -488,7 +488,7 @@
         {
          "columns":4,
          "firstgid":739,
-         "image":"tilesets\/rC3-OSM-Tileset\/landuse.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/landuse.png",
          "imageheight":32,
          "imagewidth":128,
          "margin":0,
@@ -501,7 +501,7 @@
         {
          "columns":32,
          "firstgid":743,
-         "image":"tilesets\/rC3-OSM-Tileset\/landcover_256.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/landcover_256.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -514,7 +514,7 @@
         {
          "columns":48,
          "firstgid":1767,
-         "image":"tilesets\/rC3-OSM-Tileset\/landcover_512.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/landcover_512.png",
          "imageheight":1024,
          "imagewidth":1536,
          "margin":0,
@@ -527,7 +527,7 @@
         {
          "columns":9,
          "firstgid":3303,
-         "image":"tilesets\/world-tiles\/rc3-2020\/structures\/mapUtilities.png",
+         "image":"..\/tilesets\/world-tiles\/rc3-2020\/structures\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
@@ -550,7 +550,7 @@
         {
          "columns":3,
          "firstgid":3312,
-         "image":"tilesets\/rC3-OSM-Tileset\/labels.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/labels.png",
          "imageheight":384,
          "imagewidth":96,
          "margin":0,
@@ -563,7 +563,7 @@
         {
          "columns":3,
          "firstgid":3348,
-         "image":"tilesets\/rC3-OSM-Tileset\/corner.png",
+         "image":"..\/tilesets\/rC3-OSM-Tileset\/corner.png",
          "imageheight":221,
          "imagewidth":96,
          "margin":0,
@@ -577,7 +577,7 @@
         {
          "columns":3,
          "firstgid":3366,
-         "image":"tilesets\/fossgis-update\/labels.png",
+         "image":"tilesets\/labels.png",
          "imageheight":640,
          "imagewidth":96,
          "margin":0,
@@ -590,7 +590,7 @@
         {
          "columns":1,
          "firstgid":3426,
-         "image":"tilesets\/fossgis-update\/logos.png",
+         "image":"tilesets\/logos.png",
          "imageheight":128,
          "imagewidth":32,
          "margin":0,
