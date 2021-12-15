@@ -419,6 +419,12 @@
  "nextlayerid":44,
  "nextobjectid":12,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"FOSSGIS e.V., CC0 1.0 Universal"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
  "tileheight":32,
@@ -431,6 +437,12 @@
          "imagewidth":1056,
          "margin":0,
          "name":"Symbols",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Symbols: CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":462,
          "tileheight":32,
@@ -444,6 +456,12 @@
          "imagewidth":384,
          "margin":0,
          "name":"Highway",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Highway: Manfred Stock, CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":240,
          "tileheight":32,
@@ -457,6 +475,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"Building",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Building: Manfred Stock, CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":104,
          "tileheight":32,
@@ -470,6 +494,12 @@
          "imagewidth":128,
          "margin":0,
          "name":"Colours",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Colours: Manfred Stock, CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":8,
          "tileheight":32,
@@ -493,6 +523,12 @@
          "imagewidth":128,
          "margin":0,
          "name":"Landuse",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Landuse: Manfred Stock, CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":4,
          "tileheight":32,
@@ -506,6 +542,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"Landcover 256x256",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Landcover 256x256: CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -519,6 +561,12 @@
          "imagewidth":1536,
          "margin":0,
          "name":"Landcover 512x512",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Landcover 512x512: CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":1536,
          "tileheight":32,
@@ -532,6 +580,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"Map-Utilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Map-Utilities: CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -555,6 +609,12 @@
          "imagewidth":96,
          "margin":0,
          "name":"Labels",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Labels: Manfred Stock, CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":36,
          "tileheight":32,
@@ -568,6 +628,12 @@
          "imagewidth":96,
          "margin":0,
          "name":"corner",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"corner: Momen Mawad, CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":18,
          "tileheight":32,
@@ -582,6 +648,12 @@
          "imagewidth":96,
          "margin":0,
          "name":"Labels 2",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Labels 2: FOSSGIS e.V., CC0 1.0 Universal"
+                }],
          "spacing":0,
          "tilecount":60,
          "tileheight":32,
@@ -595,6 +667,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"Logos",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Logos: FOSSGIS e.V., Creative Commons Attribution-Share Alike 3.0 Germany; Ken Vermette, Creative Commons Attribution-ShareAlike 3.0; Ybon, Creative Commons Attribution-ShareAlike 2.0"
+                }],
          "spacing":0,
          "tilecount":4,
          "tileheight":32,
