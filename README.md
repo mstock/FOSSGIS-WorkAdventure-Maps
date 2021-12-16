@@ -2,6 +2,14 @@
 
 This repo contains some maps built with the [Tiled Map Editor](https://www.mapeditor.org/) which might be used at some [FOSSGIS](https://fossgis.de/) events in a [WorkAdventure](https://workadventu.re/)-based world. See the ["Create your map!" howto](https://workadventu.re/create-map.html) about how to build maps.
 
+## Map development
+
+The [official WorkAdventure documentation](https://workadventu.re/map-building/) is pretty comprehensive, so it is recommendable to read it. This repository also contains a simple, Python3 based web server in `serve-maps.py` which uses [`http.server`](https://docs.python.org/3/library/http.server.html) to serve the content of this repository:
+
+	python3 serve-maps.py
+
+By default, this starts a [local web server on port 8000](http://localhost:8000) which serves the [`index.html`](index.html) file and the maps. [`index.html`](index.html) contains a hard-coded list of maps in this repository which gets turned into a list of links to the public WorkAdventure instance using the local URLs of the maps, so they can be viewed in the browser by following the links.
+
 ## Maps
 
 - [FOSSGIS Update 2021](fossgis-update-2021/fossgis-update.json) - Map which was used at the [FOSSGIS Update 2021 event](https://fossgis.de/news/2020_12_04_fossgis-update/). [View on play.workadventu.re.](https://play.workadventu.re/_/global/fossgis.github.io/FOSSGIS-WorkAdventure-Maps/fossgis-update-2021/fossgis-update.json)
