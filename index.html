@@ -20,6 +20,7 @@
 				const waBaseUrl = 'https://play.workadventu.re';
 				const mapsList = document.getElementById('maps');
 				const host = window.location.host;
+				const instanceId = Math.random().toString(36).substring(2, 15);
 				let path = window.location.pathname;
 				if (path.endsWith('index.html')) {
 					path = path.substr(path, path.length - 'index.html'.length);
@@ -28,7 +29,7 @@
 				maps.forEach(map => {
 					const listEntry = document.createElement('li');
 					const link = document.createElement('a');
-					link.setAttribute('href', `${waBaseUrl}/_/global/${host}${path}${map.path}`);
+					link.setAttribute('href', `${waBaseUrl}/_/${instanceId}/${host}${path}${map.path}`);
 					link.textContent = map.name;
 					listEntry.appendChild(link);
 					mapsList.appendChild(listEntry);
