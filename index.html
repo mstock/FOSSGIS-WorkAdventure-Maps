@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FOSSGIS-WorkAdventure-Maps</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<body>
+		<h1>FOSSGIS-WorkAdventure-Maps</h1>
+
+		<ul id="maps"></ul>
+
+		<script type="text/javascript">
+			(function() {
+				const maps = [
+					{
+						name: 'FOSSGIS Update 2021',
+						path: 'fossgis-update-2021/fossgis-update.json'
+					}
+				];
+				const waBaseUrl = 'https://play.workadventu.re';
+				const mapsList = document.getElementById('maps');
+				const host = window.location.host;
+				let path = window.location.pathname;
+				if (path.endsWith('index.html')) {
+					path = path.substr(path, path.length - 'index.html'.length);
+				}
+
+				maps.forEach(map => {
+					const listEntry = document.createElement('li');
+					const link = document.createElement('a');
+					link.setAttribute('href', `${waBaseUrl}/_/global/${host}${path}${map.path}`);
+					link.textContent = map.name;
+					listEntry.appendChild(link);
+					mapsList.appendChild(listEntry);
+				});
+			})();
+		</script>
+	</body>
+</html>
