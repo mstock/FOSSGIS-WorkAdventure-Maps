@@ -3,7 +3,7 @@
 
 	const stageObjectName = 'stage';
 	const instructions = 'http://localhost:8000/fossgis-2022/pages/instructions.html'
-	const video = 'https://media.ccc.de/v/fossgis2021-9013-die-cloud-hat-open-source-gefressen/oembed'
+	const video = 'http://localhost:8000/fossgis-2022/pages/party.html'
 
 	async function switchStageUrl(newUrl) {
 		const website = await WA.room.website.get(stageObjectName);
