@@ -1,0 +1,41 @@
+#!/bin/bash
+
+OUTPUT=stage.html
+
+cat > ${OUTPUT} << EOHTML
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FOSSGIS-B&uuml;hne</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" href="stage.css">
+	</head>
+	<body>
+		<video
+			class="stream"
+			id="stream"
+			controls
+			autoplay
+			data-stream-url="https://cdn.c3voc.de/hls/fossgisparty/native_hd.m3u8"
+		>Sorry, your browser does not support HTML5 video or has JavaScript disabled.</video>
+
+		<div class="slideshow">
+EOHTML
+
+for IMAGE in images/slideshow/*.*; do
+	cat >> ${OUTPUT} << EOHTML
+			<div class="slide">
+				<img class="slide-image" loading="lazy" src="${IMAGE}">
+			</div>
+EOHTML
+done
+
+cat >> ${OUTPUT} << EOHTML
+		</div>
+		<script src="node_modules/hls.js/dist/hls.min.js"></script>
+		<script src="slideshow.js"></script>
+		<script src="streamplayer.js"></script>
+		<script src="stage.js"></script>
+	</body>
+</html>
+EOHTML
