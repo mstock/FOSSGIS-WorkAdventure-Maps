@@ -486,7 +486,7 @@
                  "name":"osgeo_top_1",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":140,
                  "x":0,
                  "y":0
@@ -498,7 +498,7 @@
                  "name":"osgeo_top_2",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":140,
                  "x":0,
                  "y":0
@@ -510,7 +510,7 @@
                  "name":"grass_grass",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":140,
                  "x":0,
                  "y":0
@@ -522,7 +522,7 @@
                  "name":"osgeo_logo",
                  "opacity":0.2,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":140,
                  "x":0,
                  "y":0
