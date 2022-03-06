@@ -487,7 +487,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/fossgis.de\/dienstleister\/"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -497,7 +497,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Raus aus der Selbstst\u00e4ndigkeit? Br\u00fccke Leertaste f\u00fcr die Jobb\u00f6rse."
+                         "value":"Ben\u00f6tigen Sie Unterst\u00fctzung? Vielleicht ist hier (Leertaste) etwas f\u00fcr sie dabei."
                         }],
                  "type":"tilelayer",
                  "visible":true,
