@@ -1306,6 +1306,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"aw_starter",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"\"Alpaka World Starter Set\" by Alpaka World Builders \/ CC-BY 4.0 https:\/\/tiles.alpaka.world\/de\/starter.html"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1828,6 +1834,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"aw_walls",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"\"Alpaka World Wall Set\" by Alpaka World Builders \/ CC-BY 4.0  https:\/\/tiles.alpaka.world\/de\/walls.html"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1841,6 +1853,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"aw_inside",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"\"Alpaka World Inside Set\" by Alpaka World Builders \/ CC-BY 4.0 https:\/\/tiles.alpaka.world\/de\/inside.html"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1906,6 +1924,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"aw_outside",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"\"Alpaka World Outside Set\" by Alpaka World Builders \/ CC-BY 4.0 https:\/\/tiles.alpaka.world\/de\/outside.html"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
