@@ -223,7 +223,7 @@
                         {
                          "name":"jitsiTriggerMessage",
                          "type":"string",
-                         "value":"Dr\u00fccke Leertaste, um jitsi beizutreten."
+                         "value":"Publikum Links: Dr\u00fccke Leertaste um der crowd beizutreten. "
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -251,7 +251,7 @@
                         {
                          "name":"jitsiTriggerMessage",
                          "type":"string",
-                         "value":"Dr\u00fccke Leertaste, um jitsi beizutreten."
+                         "value":"Publikum Rechts: Dr\u00fccke Leertaste um der crowd beizutreten. "
                         }],
                  "type":"tilelayer",
                  "visible":true,
