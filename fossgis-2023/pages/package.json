@@ -1,0 +1,12 @@
+{
+  "name": "fossgis-2022-pages",
+  "version": "1.0.0",
+  "description": "Web pages for FOSSGIS-2022",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "CC0-1.0",
+  "dependencies": {
+    "hls.js": "^1.1.5"
+  }
+}
