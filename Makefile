@@ -5,7 +5,7 @@ dist:
 	cp -v .nojekyll dist
 	cp -v index.html dist
 	rsync -av --prune-empty-dirs --include "*/"  --include="*.png" --exclude="*" tilesets/ dist/tilesets
-	set -eu; for MAPS_DIRECTORY in fossgis-update-2021 fossgis-2022; do \
+	set -eu; for MAPS_DIRECTORY in fossgis-update-2021 fossgis-2022 fossgis-2023; do \
 		if [ -d $${MAPS_DIRECTORY}/pages ] ; then \
 			for HTML_BUILDER in $$(find $${MAPS_DIRECTORY}/pages -name build-*-html); do \
 				( cd $$(dirname $${HTML_BUILDER}); ./$$(basename $${HTML_BUILDER}) ); \
