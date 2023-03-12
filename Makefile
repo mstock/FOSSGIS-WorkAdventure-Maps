@@ -11,7 +11,7 @@ dist:
 				( cd $$(dirname $${HTML_BUILDER}); ./$$(basename $${HTML_BUILDER}) ); \
 			done; \
 		fi; \
-		rsync -av --prune-empty-dirs --include "*/" --include="*.png" --include="*.jpg" --include="*.JPG" --include="*.json" --include="*.html" --include="*.css" --include="*.js" --exclude="*" $${MAPS_DIRECTORY}/ dist/$${MAPS_DIRECTORY}; \
+		rsync -av --prune-empty-dirs --include "*/" --include="*.png" --include="*.jpg" --include="*.jpeg" --include="*.JPG" --include="*.json" --include="*.html" --include="*.css" --include="*.js" --exclude="*" $${MAPS_DIRECTORY}/ dist/$${MAPS_DIRECTORY}; \
 		if [ -f dist/$${MAPS_DIRECTORY}/pages/package.json ] ; then \
 			( cd dist/$${MAPS_DIRECTORY}/pages && npm ci ); \
 		fi; \
